@@ -1,0 +1,61 @@
+.blue-back {
+  background-color: dodgerblue;
+}
+
+.element-size {
+  height: 7vh;
+  width: 100%;
+}
+
+.btn-size {
+  height: 35px;
+  width: 120px;
+  margin: 5vw;
+}
+
+#thumbnail {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), 0 6px 6px rgba(0, 0, 0, 0.5);
+}
+.fullcard {
+  width: auto;
+  height: auto;
+  border: 1px solid #000;
+  margin: auto;
+  /* background-color: #9bc; */
+  background: linear-gradient(to bottom right, #33ccff 0%, #ff66cc 100%);
+}
+.card-content {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.card-text {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.label-textsize {
+  font-size: 23px;
+  font-weight: normal;
+  font-family: Tahoma, Times, serif;
+}
+.operations {
+  font-size: 18px;
+}
+
+.bg-image-1 {
+  /* The image used */
+  background-image: url("home2.jpg");
+
+  /* Add the blur effect */
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

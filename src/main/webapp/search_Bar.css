@@ -1,0 +1,28 @@
+/* input[type="text"] {
+  width: 130px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+} */
+
+/* When the input field gets focus, change its width to 100% */
+/* input[type="text"]:focus {
+  width: 100%;
+}
+ */
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+.fullcard-search {
+  width: auto;
+  height: auto;
+  border: 1px solid #000;
+  margin: auto;
+  /* background-color: #9bc; */
+  /* background: linear-gradient(to bottom right, #33ccff 0%, #ff66cc 100%); */
+  background: linear-gradient(to left, #ffff99 0%, #66ffff 100%);
+}
